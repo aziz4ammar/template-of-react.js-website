@@ -1,4 +1,5 @@
 import Card from 'react-bootstrap/Card';
+import Footer from '../footer/Footer';
 import "./body.css"
 function Body() {
   return (
@@ -61,7 +62,7 @@ function Body() {
         </Card>
         
       ))}
-
+    <Footer/>
     </div>
   );
 }
