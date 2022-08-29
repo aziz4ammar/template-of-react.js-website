@@ -62,7 +62,7 @@ function Body() {
         </Card>
         
       ))}
-    <Footer/>
+    
     </div>
   );
 }

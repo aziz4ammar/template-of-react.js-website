@@ -59,7 +59,6 @@ function Navbaro() {
         </Navbar>
       ))}
     </>
-    <Body/>
     </div>
   );
 }
