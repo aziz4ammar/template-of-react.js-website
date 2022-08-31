@@ -1,48 +1,10 @@
 import React from 'react'
-
+import {unnamed} from "../img/unnamed.jpg";
 const Body = () => {
   return (
     <div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <img src={unnamed} alt="" />
+      <h1>❤CANADA LOVER❤</h1>
     </div>
   )
 }
