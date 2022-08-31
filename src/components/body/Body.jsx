@@ -1,10 +1,14 @@
 import React from 'react'
-import {unnamed} from "../img/unnamed.jpg";
+import unnamed from "../img/unnamed.jpg";
+import "./body.css"
 const Body = () => {
   return (
     <div>
-      <img src={unnamed} alt="" />
-      <h1>❤CANADA LOVER❤</h1>
+      <h1 className='a'>❤CANADA LOVER❤</h1>
+      <img className='b' src={unnamed} alt="" />
+      <br />
+      <br />
+      <br />
     </div>
   )
 }
