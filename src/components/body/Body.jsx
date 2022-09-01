@@ -1,22 +1,15 @@
 import React from 'react'
-import unnamed from "../img/unnamed.jpg";
-import "./body.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-const Body = () => {
+const Body = ({el}) => {
   return (
     <div>
-      <h1 className='a'>❤CANADA LOVER❤</h1>
-      <img className='b' src={unnamed} alt="" />
-      <br />
-      <br />
-      <br />
       <div>
       <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>{el.name}</Card.Title>
         <Card.Text>
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
