@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <BrowserRouter> 
       <Routes>
-    <Route path="/" element={<><Navbaro/><Intro/>{info.map((el,i)=><Body el={el} key={i}/>)}<Footer/></>}   />
+    <Route path="/" element={<><Navbaro/><Intro/><div className='e'>{info.map((el,i)=><Body el={el} key={i}/>)}</div><Footer/></>}   />
       </Routes>
       </BrowserRouter>
     </div>

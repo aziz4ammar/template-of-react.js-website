@@ -2,10 +2,10 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import "./body.css"
 const Body = ({el}) => {
   return (
-    <div>
-      <div>
+    <div className='d'>
       <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={el.image} />
       <Card.Body>
@@ -14,7 +14,6 @@ const Body = ({el}) => {
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
       </Card>
-      </div>
     </div>
   )
 }
