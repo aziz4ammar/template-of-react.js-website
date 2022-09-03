@@ -13,7 +13,7 @@ const Body = ({el}) => {
         <Card.Title>{el.name}</Card.Title>
         <Card.Text>{el.text}</Card.Text>
         <Stars rating={el.rate}/>
-        <Button variant="primary">Go somewhere</Button>
+        <Button className='but' variant="primary">Learn more</Button>
       </Card.Body>
       </Card>
     </div>

@@ -10,7 +10,7 @@ function Footer() {
         <Card.Text>
           Go To The Official Canadian Website
         </Card.Text>
-        <Button href='https://www.canada.ca/en.html' variant="primary">Canadian State</Button>
+        <Button className='but' href='https://www.canada.ca/en.html' variant="primary">Canadian State</Button>
       </Card.Body>
       <Card.Footer className="text-muted">2022</Card.Footer>
     </Card>
