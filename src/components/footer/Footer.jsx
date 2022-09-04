@@ -4,13 +4,10 @@ import "./footer.css"
 function Footer() {
   return (
     <Card className="text-center">
-      <Card.Header>Featured</Card.Header>
+      <Card.Header >Footer</Card.Header>
       <Card.Body>
-        <Card.Title>ALL COPYRIGHTS RESERVED Ⓒ</Card.Title>
-        <Card.Text>
-          Go To The Official Canadian Website
-        </Card.Text>
-        <Button className='but' href='https://www.canada.ca/en.html' variant="primary">Canadian State</Button>
+        <Card.Title className='sad'>ALL COPYRIGHTS RESERVED Ⓒ</Card.Title>
+        <Button className='but' href='https://www.canada.ca/en.html' variant="primary">Canadian Official WebSite</Button>
       </Card.Body>
       <Card.Footer className="text-muted">2022</Card.Footer>
     </Card>
