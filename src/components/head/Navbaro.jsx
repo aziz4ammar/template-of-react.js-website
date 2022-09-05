@@ -8,6 +8,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from "../img/logo.png";
 import "./navbaro.css"
+import { Link } from 'react-router-dom';
 function Navbaro() {
   return (
     <div>
@@ -16,7 +17,9 @@ function Navbaro() {
         <Navbar key={expand} bg="light" expand={expand} className="mb-3">
           <Container fluid>
             <Navbar.Brand>
+              <Link to="/">
               <img className='asa' src={logo} alt="logo" />
+              </Link>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
