@@ -4,33 +4,33 @@ import Modal from "react-bootstrap/Modal";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 
-const Edit = ({ el, edit }) => {
+const Ottawa = ({el}) => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  const [name, setName] = useState(el.name);
-  const [image, setImage] = useState(el.image);
-  const [rating, setRating] = useState(el.rating);
-  const [date, setdate] = useState(el.date);
+//   const [name, setName] = useState(el.name);
+//   const [image, setImage] = useState(el.image);
+//   const [rating, setRating] = useState(el.rating);
+//   const [date, setdate] = useState(el.date);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const editedMovie = {
       id: el.id,
-      name,
-      image,
-      rate,
-      date,
+    //   name,
+    //   image,
+    //   rate,
+    //   date,
     };
-    edit(editedMovie);
+    // edit(editedMovie);
     handleClose();
   };
   return (
     <div>
       <Button variant="primary" onClick={handleShow}>
-        Edit
+        Learn more
       </Button>
 
       <Modal show={show} onHide={handleClose}>
@@ -43,32 +43,32 @@ const Edit = ({ el, edit }) => {
               <InputGroup.Text>Title</InputGroup.Text>
               <Form.Control
                 aria-label="First name"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
+                // value={name}
+                // onChange={(e) => setName(e.target.value)}
               />
             </InputGroup>
             <InputGroup className="mb-3">
               <InputGroup.Text>Image</InputGroup.Text>
               <Form.Control
                 aria-label="First name"
-                value={image}
-                onChange={(e) => setImage(e.target.value)}
+                // value={image}
+                // onChange={(e) => setImage(e.target.value)}
               />
             </InputGroup>
             <InputGroup className="mb-3">
               <InputGroup.Text>Rating</InputGroup.Text>
               <Form.Control
                 aria-label="First name"
-                value={rating}
-                onChange={(e) => setRating(e.target.value)}
+                // value={rating}
+                // onChange={(e) => setRating(e.target.value)}
               />
             </InputGroup>
             <InputGroup className="mb-3">
               <InputGroup.Text>Year</InputGroup.Text>
               <Form.Control
                 aria-label="First name"
-                value={date}
-                onChange={(e) => setdate(e.target.value)}
+                // value={date}
+                // onChange={(e) => setdate(e.target.value)}
               />
             </InputGroup>
           </Modal.Body>
@@ -86,4 +86,4 @@ const Edit = ({ el, edit }) => {
   );
 };
 
-export default Edit;
+export default Ottawa;
