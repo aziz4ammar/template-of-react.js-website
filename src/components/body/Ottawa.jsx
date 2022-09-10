@@ -29,7 +29,7 @@ const Ottawa = ({el}) => {
   };
   return (
     <div>
-      <Button variant="primary" onClick={handleShow}>
+      <Button className="but" variant="primary" onClick={handleShow}>
         Learn more
       </Button>
 
