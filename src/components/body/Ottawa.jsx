@@ -35,12 +35,12 @@ const Ottawa = ({el}) => {
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>New Movie</Modal.Title>
+          <Modal.Title>More About ❤{el.name}❤</Modal.Title>
         </Modal.Header>
         <Form onSubmit={handleSubmit}>
           <Modal.Body>
             <InputGroup className="mb-3">
-              <InputGroup.Text>Title</InputGroup.Text>
+              <InputGroup.Text>Province</InputGroup.Text>
               <Form.Control
                 aria-label="First name"
                 // value={name}
@@ -75,9 +75,6 @@ const Ottawa = ({el}) => {
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>
               Close
-            </Button>
-            <Button variant="primary" type="submit" onClick={handleClose}>
-              Save Changes
             </Button>
           </Modal.Footer>
         </Form>
