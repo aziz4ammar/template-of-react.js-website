@@ -48,7 +48,7 @@ const Ottawa = ({el}) => {
               />
             </InputGroup>
             <InputGroup className="mb-3">
-              <InputGroup.Text>Image</InputGroup.Text>
+              <InputGroup.Text>Population</InputGroup.Text>
               <Form.Control
                 aria-label="First name"
                 // value={image}
@@ -56,7 +56,7 @@ const Ottawa = ({el}) => {
               />
             </InputGroup>
             <InputGroup className="mb-3">
-              <InputGroup.Text>Rating</InputGroup.Text>
+              <InputGroup.Text>Covered area</InputGroup.Text>
               <Form.Control
                 aria-label="First name"
                 // value={rating}
@@ -64,6 +64,14 @@ const Ottawa = ({el}) => {
               />
             </InputGroup>
             <InputGroup className="mb-3">
+              <InputGroup.Text>Year</InputGroup.Text>
+              <Form.Control
+                aria-label="First name"
+                // value={date}
+                // onChange={(e) => setdate(e.target.value)}
+              />
+            </InputGroup>
+          <InputGroup className="mb-3">
               <InputGroup.Text>Year</InputGroup.Text>
               <Form.Control
                 aria-label="First name"
