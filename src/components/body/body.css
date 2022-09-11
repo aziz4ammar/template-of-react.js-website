@@ -18,3 +18,8 @@
     color: red;
     border-color: red;
 }
+.but:focus{
+    color: white;
+    background-color: red;
+    border-color: rgb(40, 40, 40);
+}
