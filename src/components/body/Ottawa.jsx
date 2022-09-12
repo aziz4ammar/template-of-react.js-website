@@ -29,7 +29,7 @@ const Ottawa = ({el}) => {
               <InputGroup.Text>Province</InputGroup.Text>
               <Form.Control
                 aria-label="First name"
-                // value={}
+                value={el.pr}
               />
             </InputGroup>
             <InputGroup className="mb-3">
