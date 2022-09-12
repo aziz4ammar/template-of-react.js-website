@@ -43,8 +43,7 @@ const Ottawa = ({el}) => {
               <InputGroup.Text>Province</InputGroup.Text>
               <Form.Control
                 aria-label="First name"
-                // value={name}
-                // onChange={(e) => setName(e.target.value)}
+                // value={}
               />
             </InputGroup>
             <InputGroup className="mb-3">
@@ -67,12 +66,11 @@ const Ottawa = ({el}) => {
               <InputGroup.Text>Year</InputGroup.Text>
               <Form.Control
                 aria-label="First name"
-                // value={date}
-                // onChange={(e) => setdate(e.target.value)}
+                value={el.year}
               />
             </InputGroup>
           <InputGroup className="mb-3">
-              <InputGroup.Text>Year</InputGroup.Text>
+              <InputGroup.Text>Source link</InputGroup.Text>
               <Form.Control
                 aria-label="First name"
                 // value={date}
