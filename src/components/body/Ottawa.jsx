@@ -73,8 +73,7 @@ const Ottawa = ({el}) => {
               <InputGroup.Text>Source link</InputGroup.Text>
               <Form.Control
                 aria-label="First name"
-                // value={date}
-                // onChange={(e) => setdate(e.target.value)}
+                value={el.src}
               />
             </InputGroup>
           </Modal.Body>
