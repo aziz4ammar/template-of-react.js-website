@@ -9,22 +9,8 @@ const Ottawa = ({el}) => {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-
-//   const [name, setName] = useState(el.name);
-//   const [image, setImage] = useState(el.image);
-//   const [rating, setRating] = useState(el.rating);
-//   const [date, setdate] = useState(el.date);
-
   const handleSubmit = (e) => {
     e.preventDefault();
-    const editedMovie = {
-      id: el.id,
-    //   name,
-    //   image,
-    //   rate,
-    //   date,
-    };
-    // edit(editedMovie);
     handleClose();
   };
   return (
@@ -51,7 +37,6 @@ const Ottawa = ({el}) => {
               <Form.Control
                 aria-label="First name"
                 // value={image}
-                // onChange={(e) => setImage(e.target.value)}
               />
             </InputGroup>
             <InputGroup className="mb-3">
@@ -59,7 +44,6 @@ const Ottawa = ({el}) => {
               <Form.Control
                 aria-label="First name"
                 // value={rating}
-                // onChange={(e) => setRating(e.target.value)}
               />
             </InputGroup>
             <InputGroup className="mb-3">
