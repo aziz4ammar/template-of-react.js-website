@@ -36,14 +36,14 @@ const Ottawa = ({el}) => {
               <InputGroup.Text>Population</InputGroup.Text>
               <Form.Control
                 aria-label="First name"
-                // value={image}
+                value={el.pop}
               />
             </InputGroup>
             <InputGroup className="mb-3">
               <InputGroup.Text>Covered area</InputGroup.Text>
               <Form.Control
                 aria-label="First name"
-                // value={rating}
+                value={el.cav}
               />
             </InputGroup>
             <InputGroup className="mb-3">
