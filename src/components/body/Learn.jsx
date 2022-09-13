@@ -4,7 +4,7 @@ import Modal from "react-bootstrap/Modal";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 
-const Ottawa = ({el}) => {
+const Learn = ({el}) => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -72,4 +72,4 @@ const Ottawa = ({el}) => {
   );
 };
 
-export default Ottawa;
+export default Learn;

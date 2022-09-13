@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import "./body.css"
 import Stars from './Stars';
-import Ottawa from './Ottawa';
+import Learn from './Learn';
 const Body = ({el}) => {
   return (
     <div className='d'>
@@ -14,7 +14,7 @@ const Body = ({el}) => {
         <Card.Title>{el.name}</Card.Title>
         <Card.Text>{el.text}</Card.Text>
         <Stars rating={el.rate}/>
-        <Ottawa el={el}/>
+        <Learn el={el}/>
       </Card.Body>
       </Card>
     </div>
