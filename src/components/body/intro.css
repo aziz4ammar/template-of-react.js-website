@@ -23,5 +23,10 @@
     background-color: rgb(169, 1, 1);
 }
 .f{
-    width: 700px;
+    width: 670px;
+    height: 400px;
+    border-style: dotted;
+    border-width: 15px;
+    border-color: #ffffff;
+    background-color: rgb(169, 1, 1);
 }
