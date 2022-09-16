@@ -12,7 +12,7 @@ const Intro = () => {
       <h1 className='a'>❤NATIONAL ANTHEM❤</h1>
       <div>
         <br />
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/kRPGPAnPNa8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe className='f' width="560" height="315" src="https://www.youtube.com/embed/kRPGPAnPNa8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <br />
       <br />
       </div>
