@@ -3,7 +3,7 @@ import unnamed from "../img/unnamed.jpg";
 import "./intro.css"
 const Intro = () => {
   return (
-    <div>
+    <div id='yr'>
       <div id='ya'>
       <h1 className='a'>❤CANADA LOVER❤</h1>
       <img className='b' src={unnamed} alt="" />
