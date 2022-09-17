@@ -40,13 +40,13 @@ function Navbaro() {
                     title="Dropdown"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
-                    <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">
-                      Another action
+                    <NavDropdown.Item href="#ya">Main Title</NavDropdown.Item>
+                    <NavDropdown.Item href="#yz">
+                    National Anthem
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action5">
-                      Something else here
+                    <NavDropdown.Item href="#ye">
+                      Cities
                     </NavDropdown.Item>
                   </NavDropdown>
                 </Nav>
